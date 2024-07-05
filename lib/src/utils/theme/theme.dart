@@ -5,6 +5,7 @@ import 'package:heal_path/src/utils/theme/widget_themes/text_themes.dart';
 class AppTheme {
 //light theme
   static ThemeData lightTheme = ThemeData(
+    primarySwatch: Colors.blue,
     brightness: Brightness.light,
     textTheme: AppTextTheme.lightTextTheme,
     elevatedButtonTheme: AppButtonTheme.elevatedButtonThemeLight,
@@ -13,6 +14,7 @@ class AppTheme {
 
 //dark theme
   static ThemeData darkTheme = ThemeData(
+    primarySwatch: Colors.blue,
     brightness: Brightness.dark,
     textTheme: AppTextTheme.darktTextTheme,
     elevatedButtonTheme: AppButtonTheme.elevatedButtonThemeDark,
