@@ -33,8 +33,8 @@ class WelcomeScreen extends StatelessWidget {
                     onPressed: () {},
                     style: OutlinedButton.styleFrom(
                       shape: const RoundedRectangleBorder(),
-                      foregroundColor: Colors.black,
-                      side: const BorderSide(color: Colors.black),
+                      foregroundColor: Colors.blue,
+                      side: const BorderSide(color: Colors.blue),
                       padding: const EdgeInsets.symmetric(vertical: 15),
                     ),
                     child: const Text("LOGIN"),
@@ -49,8 +49,8 @@ class WelcomeScreen extends StatelessWidget {
                     style: OutlinedButton.styleFrom(
                       shape: const RoundedRectangleBorder(),
                       foregroundColor: Colors.white,
-                      backgroundColor: Colors.black,
-                      side: const BorderSide(color: Colors.black),
+                      backgroundColor: Colors.blue,
+                      side: const BorderSide(color: Colors.blue),
                       padding: const EdgeInsets.symmetric(vertical: 15),
                     ),
                     child: const Text("SIGNUP"),
