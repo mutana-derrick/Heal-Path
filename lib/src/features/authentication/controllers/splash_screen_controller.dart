@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:heal_path/main.dart';
+// import 'package:heal_path/main.dart';
+import 'package:heal_path/src/features/authentication/screens/welcome_screen.dart';
 
 class SplashScreenController extends GetxController with SingleGetTickerProviderMixin {
   late AnimationController animationController;
@@ -34,7 +35,7 @@ class SplashScreenController extends GetxController with SingleGetTickerProvider
     animationController.forward();
      animationController.addStatusListener((status) {
       if (status == AnimationStatus.completed) {
-        Get.off(() => const HomePage()); // Navigate to HomePage after animation completes
+        Get.off(() => const WelcomeScreen()); // Navigate to HomePage after animation completes
       }
     });
   }
