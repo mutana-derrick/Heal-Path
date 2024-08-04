@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:heal_path/src/features/authentication/screens/login/login_screen.dart';
+import 'package:get/get.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -30,7 +32,7 @@ class WelcomeScreen extends StatelessWidget {
               children: [
                 Expanded(
                   child: OutlinedButton(
-                    onPressed: () {},
+                    onPressed: () => Get.to(()=> const LoginScreen() ),
                     style: OutlinedButton.styleFrom(
                       shape: const RoundedRectangleBorder(),
                       foregroundColor: Colors.blue,
